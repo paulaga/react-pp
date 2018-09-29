@@ -1,9 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+import { FilterableProductTable } from './src/FilterableProductTable';
 
 
 const App = () =>(
-    <p>Hello React</p>
+  <div>
+    <FilterableProductTable />
+  </div>
 )
 
 ReactDOM.render(
